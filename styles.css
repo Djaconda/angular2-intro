@@ -35,7 +35,7 @@ button {
     letter-spacing: 0;
     overflow: hidden;
     will-change: box-shadow;
-    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
     outline: none;
     cursor: pointer;
     text-decoration: none;
@@ -45,11 +45,11 @@ button {
 }
 
 button:hover {
-    background-color: rgba(158,158,158,.2);
+    background-color: rgba(158, 158, 158, .2);
 }
 
 button:active {
-    background-color: rgba(158,158,158,.4);
+    background-color: rgba(158, 158, 158, .4);
 }
 
 button.icon {
@@ -69,15 +69,15 @@ button.icon .material-icons {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-12px,-12px);
-    transform: translate(-12px,-12px);
+    -webkit-transform: translate(-12px, -12px);
+    transform: translate(-12px, -12px);
     line-height: 24px;
     width: 24px;
     vertical-align: middle;
 }
 
 button[disabled] {
-    color: rgba(0,0,0,.26);
+    color: rgba(0, 0, 0, .26);
     cursor: default;
     background-color: transparent;
 }

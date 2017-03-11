@@ -42,3 +42,6 @@ jspm_packages
 # JavaScript files
 app/**/*.js
 app/**/*.js.map
+
+# IDE
+.idea/

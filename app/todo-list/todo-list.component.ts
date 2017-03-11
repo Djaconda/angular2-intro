@@ -1,5 +1,4 @@
 import {Component} from "@angular/core";
-
 import {Todo} from "../common/todo";
 import {todos} from "../common/data";
 
