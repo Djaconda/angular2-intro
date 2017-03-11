@@ -1,5 +1,5 @@
 import {Component, Input, Output, EventEmitter} from "@angular/core";
-import {Todo} from "../common/todo";
+import {Todo} from "../../common/todo";
 
 @Component({
     moduleId: module.id,
@@ -9,14 +9,14 @@ import {Todo} from "../common/todo";
 })
 export class TodoItemComponent {
     @Input() todo: Todo;
-    @Output() toggle = new EventEmitter();
     @Output() delete = new EventEmitter();
-
-    onToggle() {
-        this.toggle.emit(this.todo);
-    }
+    @Output() toggle = new EventEmitter();
 
     onDelete() {
         this.delete.emit(this.todo);
+    }
+
+    onToggle() {
+        this.toggle.emit(this.todo);
     }
 }

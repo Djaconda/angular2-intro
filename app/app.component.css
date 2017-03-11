@@ -30,7 +30,6 @@ main {
     margin: auto;
 }
 
-todo-form,
-todo-list {
+todos {
     width: 100%;
 }
