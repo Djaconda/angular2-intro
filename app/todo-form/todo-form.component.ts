@@ -9,11 +9,6 @@ import {Component} from "@angular/core";
 export class TodoFormComponent {
     newTodoTitle: string = '';
 
-
     create() {
-        // let todo: Todo = new Todo(this.newTodoTitle);
-        //
-        // this.todos.push(todo);
-        // this.newTodoTitle = '';
     }
 }

@@ -29,3 +29,8 @@ main {
 	width: 600px;
 	margin: auto;
 }
+
+todo-form,
+todo-list {
+	width: 100%;
+}
